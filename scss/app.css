@@ -39,22 +39,6 @@ html body .btn-link {
     margin-right: 20%;
   }
 }
-html body div.container header {
-  font-family: "HelveticaBlackOblique" sans-serif;
-  font-style: italic;
-  font-weight: bolder;
-  text-align: center;
-  letter-spacing: -2px;
-  font-size: 1.8rem;
-}
-html body div.container header #header-outer {
-  border: 7px solid black;
-}
-html body div.container header #header-outer #header-inner {
-  border: 10px solid white;
-  background-color: black;
-  padding: 5px;
-}
 html body div.container main section.section-text {
   background-color: rgb(50, 50, 50);
   padding: 5px 10% 5px 10%;
@@ -110,6 +94,4 @@ html body div.container footer div.socialbar i:hover {
 }
 html body div.container footer p.copyright {
   text-align: center;
-}
-
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

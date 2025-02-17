@@ -1,6 +1,6 @@
-@use "reset" as *;
-@use "mixins" as *;
-@use "globals" as globals;
+@use "_reset" as *;
+@use "_mixins" as *;
+@use "_globals" as globals;
 
 html {
     //background-color: $bg-main;
@@ -28,22 +28,6 @@ html {
             }
 
             header {
-                font-family: "HelveticaBlackOblique" sans-serif;
-                font-style: italic;
-                font-weight: bolder;
-                text-align: center;
-                letter-spacing: -2px;
-                font-size: 1.8rem;
-
-                #header-outer {
-                    border: 7px solid black;
-
-                    #header-inner {
-                        border: 10px solid white;
-                        background-color: black;
-                        padding: 5px;
-                    }
-                }
             }
 
             main {
