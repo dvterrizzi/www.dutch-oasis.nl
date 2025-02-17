@@ -20,7 +20,7 @@ ol {
 }
 html body {
   background-color: rgb(20, 20, 20);
-  font-family: "FaustinaLight", sans-serif;
+  font-family: "HelveticaBlackOblique", sans-serif;
   color: white;
 }
 html body a,
@@ -39,6 +39,9 @@ html body .btn-link {
     margin-right: 20%;
   }
 }
+html body div.container header img {
+  max-height: 25vh;
+}
 html body div.container main section.section-text {
   background-color: rgb(50, 50, 50);
   padding: 5px 10% 5px 10%;
@@ -51,8 +54,11 @@ html body div.container main section.section-photo .photo {
   display: block;
   transition: transform 0.4s;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+}
+@media (min-width: 1200px) {
+  html body div.container main section.section-photo .photo {
+    max-height: 800px;
+  }
 }
 html body div.container main section.section-video video {
   width: 100%;
@@ -60,12 +66,12 @@ html body div.container main section.section-video video {
 }
 html body div.container main section .section-header {
   text-align: center;
-  font-family: "RoadRage";
   font-size: 3em;
   color: rgb(200, 10, 10);
 }
 html body div.container main section .section-content {
-  font-family: "FaustinaLight";
+  font-weight: lighter;
+  letter-spacing: 0.1px;
 }
 html body div.container footer {
   width: 100%;
