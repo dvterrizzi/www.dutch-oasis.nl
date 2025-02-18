@@ -107,31 +107,38 @@ html {
     
                 background-color: globals.$bg-body;
                 color: globals.$color-footer;
+
+                a {
+                    color: globals.$color-link;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
     
-                div.socialbar {
-                    width: 100%;
-    
+                div.socialbar {    
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
-    
+
+                    width: 100%;                    
                     padding: 10px 0 10px 0;
     
-                    background-color: globals.$bg-body;
-    
+                    background-color: globals.$bg-body;    
                     font-size: 2em;
     
                     i {
                         color: globals.$color-socialbar-icon;
                         margin-right: 20px;
-                    }
-    
-                    i:hover {
-                        opacity: 0.8;
+
+                        &:hover {
+                            opacity: 0.8;
+                        }
                     }
                 }
     
                 p.copyright {
+                    margin: 5px 0 5px 0;
                     text-align: center;
                 }
             }
