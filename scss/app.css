@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 ul,
@@ -39,7 +40,7 @@ html body .btn-link {
     margin-right: 20%;
   }
 }
-html body div.container header img {
+html body div.container œ header img {
   max-height: 25vh;
 }
 html body div.container main section.section-text {
@@ -92,11 +93,11 @@ html body div.container footer div.socialbar {
   font-size: 2em;
 }
 html body div.container footer div.socialbar i {
-  color: rgb(200, 10, 10);
+  color: rgb(200, 200, 200);
   margin-right: 20px;
 }
 html body div.container footer div.socialbar i:hover {
-  color: rgb(200, 50, 50);
+  opacity: 0.8;
 }
 html body div.container footer p.copyright {
   text-align: center;
