@@ -6,9 +6,13 @@ html {
     //background-color: $bg-main;
 
     body {
+        font-family: Helvetica;
+        font-style: oblique;
+        font-variant: normal;
+        font-weight: bold;
+        line-height: 20px;
+
         background-color: globals.$bg-body;
-        font-family: "HelveticaBlackOblique", sans-serif;
-        //font-family: "FaustinaLight", sans-serif;
         color: globals.$color-text;
 
         a,

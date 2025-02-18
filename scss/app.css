@@ -7,21 +7,13 @@ ol {
   padding: 0;
 }
 
-@font-face {
-  font-family: "HelveticaBlackOblique";
-  src: url("fonts/Helvetica-Black-Oblique.ttf");
-}
-@font-face {
-  font-family: "FaustinaLight";
-  src: url("fonts/Faustina-Light.ttf");
-}
-@font-face {
-  font-family: "Splash";
-  src: url("fonts/Splash-Regular.ttf");
-}
 html body {
+  font-family: Helvetica;
+  font-style: oblique;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 20px;
   background-color: rgb(20, 20, 20);
-  font-family: "HelveticaBlackOblique", sans-serif;
   color: white;
 }
 html body a,
